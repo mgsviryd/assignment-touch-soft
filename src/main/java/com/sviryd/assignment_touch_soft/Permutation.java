@@ -1,4 +1,4 @@
-package com.sviryd.mikhail;
+package com.sviryd.assignment_touch_soft;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

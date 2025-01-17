@@ -1,4 +1,4 @@
-package com.sviryd.mikhail;
+package com.sviryd.assignment_touch_soft;
 
 import org.junit.Assert;
 import org.junit.Before;
