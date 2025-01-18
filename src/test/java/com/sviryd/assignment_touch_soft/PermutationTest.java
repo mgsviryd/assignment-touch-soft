@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertTrue;
+
 public class PermutationTest {
     private Permutation permutation;
 
@@ -16,35 +18,35 @@ public class PermutationTest {
     public void test_1_1_2_7() {
         int[] a = {1, 1, 2, 7};
         boolean canBeEqualTo24 = permutation.canBeEqualTo24(a);
-        Assert.assertTrue(canBeEqualTo24);
+        assertTrue(canBeEqualTo24);
     }
 
     @Test
     public void test_3_3_8_8() {
         int[] a = {3, 3, 8, 8};
         boolean canBeEqualTo24 = permutation.canBeEqualTo24(a);
-        Assert.assertTrue(canBeEqualTo24);
+        assertTrue(canBeEqualTo24);
     }
 
     @Test
     public void test_5_2_4_3() {
         int[] a = {5, 2, 4, 3};
         boolean canBeEqualTo24 = permutation.canBeEqualTo24(a);
-        Assert.assertTrue(canBeEqualTo24);
+        assertTrue(canBeEqualTo24);
     }
 
     @Test
     public void test_34_3_76_6() {
         int[] a = {34, 3, 76, 6};
         boolean canBeEqualTo24 = permutation.canBeEqualTo24(a);
-        Assert.assertTrue(canBeEqualTo24);
+        assertTrue(canBeEqualTo24);
     }
 
     @Test
     public void test_54_24_2_9() {
         int[] a = {54, 24, 2, 9};
         boolean canBeEqualTo24 = permutation.canBeEqualTo24(a);
-        Assert.assertTrue(canBeEqualTo24);
+        assertTrue(canBeEqualTo24);
     }
 
     @Test

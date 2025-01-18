@@ -4,19 +4,14 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.function.BinaryOperator;
 
-/**
- * Assignment:
- * 1. make code within an only one method
- * 2. signature of method below
- */
 public class Permutation {
     /**
      * Memory-saving version
      * We can make this method more readable if we start to store permutation of elements and permutation of
      * operations separately from existing multiple for loop, but it will cost extra memory.
      *
-     * @param nums array composed of 4 integer
-     * @return boolean {@code true} if there exists combination of calculation(*,/,+,-) where the amount is 24
+     * @param nums array consisting of 4 integer
+     * @return boolean {@code true} if there exists combination of calculation(*,/,+,-) which amount is 24
      */
     public boolean canBeEqualTo24(final int[] nums) {
         int nE = 4;
